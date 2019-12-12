@@ -1,0 +1,96 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+li{
+		list-style-type :none;
+		text-align:center;
+		font-size:5px;
+}
+.welt{
+	width:auto;
+	height:20px;
+	background:#D1D1D1;
+	margin-top:100px;	
+	
+}
+.sliding{
+	position:relative;
+	width:800px;
+	height:20px;
+	margin-left:560px;
+	overflow:hidden;
+}
+.horn{
+	float:left;
+	margin-left:540px;
+	width:16px;
+	height:20px;
+}			
+.font{
+	width:350px;
+	height:20px;
+	position:absolute;
+	font-size:70%;
+	line-height:20px;
+	color:rgb(255,0,0);
+	left:800px;
+	overflow:hidden;
+	
+}
+
+
+.box{
+	width:1200px;
+	height:384px;
+	border:1px solid none;
+	margin:10px auto;
+	position:relative;
+	overflow:hidden;
+}
+.slider{
+	width:8400px;
+	position:absolute;
+	left:-1200px;
+}
+.slide{
+	width:1200px;
+	overflow:hidden;
+	float:left;
+}
+.box>span{
+	display:block;
+	width:30px;
+	height:50px;
+	text-align:center;
+	cursor:pointer;
+	top:175px;
+	line-height:50px;
+	background:rgb(255,0,0);
+	font-size:30px;
+	position:absolute;
+	opacity:0;
+}
+#left{
+	left:30px;
+}
+#right{
+	right:30px;
+}
+.nav{
+	position:absolute;
+	left:500px;
+	bottom:20px;
+}
+.nav>li{
+	float:left;
+	width:20px;
+	height:20px;
+	background:#ccc;
+	cursor:pointer;
+	margin:0 10px;
+	border-radius:50%;
+}
+.nav .active{
+	background: red;
+}
